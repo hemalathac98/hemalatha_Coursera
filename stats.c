@@ -39,5 +39,13 @@ void main() {
   /* Statistics and Printing Functions Go Here */
 
 }
+void print_statistics();
+void print_array(char *array, int length);
+int find_median(char *array, int length);
+int find_mean(char *array, int length);
+int find_maximum(char *array, int length);
+int find_minimum(char *array, int length);
+void sort_array(char *array, int length);
+
 
 /* Add other Implementation File Code Here */

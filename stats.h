@@ -9,32 +9,99 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.h
+ * @brief Header file for stats.c having all the function prototypes
  *
- * <Add Extended Description Here>
+ * This file has 8 function prototypes
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author C Hemalatha
+ * @date 07-09-2020
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
+
+ 
+
 
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief A function that prints the statistics of an array including minimum, maximum, mean and median
  *
- * <Add Extended Description Here>
+ * 
+ * @param No parameters
+
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
+ * @return No return values
  */
+void print_statistics();
+
+/**
+ * @brief Given an array of data and a length, prints the array to the screen
+ *
+ *
+ * @param array array of data
+ * @param length length of the array
+ *
+ * @return NULL
+ */
+void print_array(char *array, int length);
+
+/**
+ * @brief Calculates median value
+ *
+ * @param array array of data
+ * @param length length of array
+
+ *
+ * @return returns median value
+ */
+int find_median(char *array, int length);
+
+/**
+ * @brief Calculates mean value
+ *
+ * @param array array of data
+ * @param length length of array
+
+ *
+ * @return returns mean value
+ */
+int find_mean(char *array, int length);
+
+/**
+ * @brief Calculates maximum value
+ *
+ * @param array array of data
+ * @param length length of array
+
+ *
+ * @return returns maximum value
+ */
+int find_maximum(char *array, int length);
+
+/**
+ * @brief Calculates minimum value
+ *
+ * @param array array of data
+ * @param length length of array
+
+ *
+ * @return returns minimum value
+ */
+int find_minimum(char *array, int length);
+
+/**
+ * @brief sorts the array from largest to smallest
+ *
+ * @param array array of data
+ * @param length length of array
+
+ *
+ * @return no return value
+ */
+void sort_array(char *array, int length);
+
 
 
 #endif /* __STATS_H__ */
