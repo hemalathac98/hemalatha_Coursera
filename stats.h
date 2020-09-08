@@ -34,73 +34,69 @@
  *
  * @return No return values
  */
-void print_statistics();
+void print_statistics(unsigned char array[]);
 
 /**
  * @brief Given an array of data and a length, prints the array to the screen
  *
  *
  * @param array array of data
- * @param length length of the array
+
  *
  * @return NULL
  */
-void print_array(char *array, int length);
+void print_array(unsigned char array[]);
 
 /**
  * @brief Calculates median value
  *
  * @param array array of data
- * @param length length of array
 
  *
  * @return returns median value
  */
-int find_median(char *array, int length);
+unsigned char find_median(unsigned char array[]);
 
 /**
  * @brief Calculates mean value
  *
  * @param array array of data
- * @param length length of array
 
  *
  * @return returns mean value
  */
-int find_mean(char *array, int length);
+unsigned char find_mean(unsigned char array[]);
 
 /**
  * @brief Calculates maximum value
  *
  * @param array array of data
- * @param length length of array
 
  *
  * @return returns maximum value
  */
-int find_maximum(char *array, int length);
+unsigned char find_maximum(unsigned char array[]);
 
 /**
  * @brief Calculates minimum value
  *
  * @param array array of data
- * @param length length of array
 
  *
  * @return returns minimum value
  */
-int find_minimum(char *array, int length);
+unsigned char find_minimum(unsigned char array[]);
 
 /**
  * @brief sorts the array from largest to smallest
  *
  * @param array array of data
- * @param length length of array
+
 
  *
  * @return no return value
  */
-void sort_array(char *array, int length);
+void sort_array(unsigned char *array);
 
 
 
